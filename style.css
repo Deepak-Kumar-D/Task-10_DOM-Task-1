@@ -1,0 +1,88 @@
+html{
+    margin: 0;
+    padding: 0;
+    margin-top: 150px;
+    background-image: linear-gradient(to right, rgb(42, 34, 70), rgb(94, 87, 122), rgb(42, 34, 70));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: 400px;
+    box-shadow: 5px 10px 30px 5px;
+}
+
+.display{
+    width: 100%;
+    padding: 10px;
+    font-size: 40px;
+    border: 1px solid rgb(189, 188, 188, 0.1);
+    text-align: right;
+    color: rgb(80, 80, 80);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(213, 208, 245);
+}
+
+.form-group{
+    padding: 10px 10px 0px 10px;
+}
+
+.btns{
+    width: 100%;
+    height: 95px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid rgb(189, 188, 188);    
+}
+
+.mem{
+    height: 55px;
+    font-size: 20px;
+}
+
+#equals{
+    font-size: 50px;
+}
+
+#equals:hover{
+    background-color: rgba(20, 75, 33, 0.8);
+    font-size: 60px;
+}
+
+#C:hover{
+    background-color: rgba(92, 10, 24, 0.8);
+    font-size: 25px;
+}
+
+.mem:hover{
+    background-color: rgba(163, 147, 6, 0.8);
+    font-size: 25px;
+}
+
+.digits:hover{
+    background-color: rgba(3, 51, 95, 0.8);
+    font-size: 40px;
+}
+
+.operations:hover{
+    background-color: rgba(34, 3, 63, 0.8);
+    font-size: 40px;
+}
+
+.digits{
+    background-color: rgb(41, 40, 48);
+}
+
+.operations,.mem{
+    background-color: rgb(86, 84, 100);
+}
+
+.row{
+    padding-left: 10px;
+    padding-right: 10px;
+}
