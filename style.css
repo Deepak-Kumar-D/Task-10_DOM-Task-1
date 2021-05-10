@@ -28,6 +28,10 @@ body{
     background: rgb(213, 208, 245);
 }
 
+#show::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
 .form-group{
     padding: 10px 10px 0px 10px;
 }
