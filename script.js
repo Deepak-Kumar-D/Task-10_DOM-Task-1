@@ -14,11 +14,19 @@ const formGroup = document.getElementsByClassName("form-group")[0];
 const monitor = document.createElement("input");
 monitor.className = "display";
 monitor.id = "show";
-monitor.type = "number";
-monitor.step = "any";
+monitor.type = "text";
 monitor.placeholder = "0";
+monitor.setAttribute("onkeypress", "return isNumber(event)");
 
 formGroup.append(monitor);
+
+//Input Number Only Validation
+function isNumber(evt) {
+    var iKeyCode = (evt.which) ? evt.which : evt.keyCode
+    if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57))
+        return false;
+    return true;
+} 
 
 //DOM Div: row, col
 const panel = document.getElementsByClassName("panel")[0];
@@ -251,7 +259,7 @@ function display(dig){
     }
     else if(+num === 0 || num === " " || num === mr)
     {
-        document.getElementById("show").value = dig;
+        document.getElementById("show").value = +dig;
     }
     else
     {
