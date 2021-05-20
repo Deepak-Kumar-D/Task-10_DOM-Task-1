@@ -41,49 +41,59 @@ body{
     height: 95px;
     font-size: 30px;
     color: white;
-    border: 1px solid rgb(189, 188, 188);    
+    border: 1px solid rgb(189, 188, 188);
+    transition: 0.2s;    
 }
 
 .mem{
     height: 55px;
     font-size: 20px;
+    transition: 0.2s
 }
 
 #equals{
     font-size: 50px;
+    transition: 0.2s
 }
 
 #equals:hover{
     background-color: rgba(20, 75, 33, 0.8);
     font-size: 60px;
+    transition: 0.2s
 }
 
 #C:hover{
     background-color: rgba(92, 10, 24, 0.8);
     font-size: 25px;
+    transition: 0.2s
 }
 
 .mem:hover{
     background-color: rgba(163, 147, 6, 0.8);
     font-size: 25px;
+    transition: 0.2s
 }
 
 .digits:hover{
     background-color: rgba(3, 51, 95, 0.8);
     font-size: 40px;
+    transition: 0.2s;
 }
 
 .operations:hover{
     background-color: rgba(34, 3, 63, 0.8);
     font-size: 40px;
+    transition: 0.2s
 }
 
 .digits{
     background-color: rgb(41, 40, 48);
+    transition: 0.2s
 }
 
 .operations,.mem{
     background-color: rgb(86, 84, 100);
+    transition: 0.2s
 }
 
 .row{
